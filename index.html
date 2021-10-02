@@ -10,6 +10,7 @@
 </head>
 <body>
   <form class="hidden" id="form-login">
+    <h2 id="clock"></h2>
     <input 
     required
     maxlength="15"
@@ -18,12 +19,27 @@
     />
     <input type="submit" value="Log in">
   </form>
-  <h2 id="clock"></h2>
+
   <h1 id="greeting" class="hidden"></h1>
+
+  <form id="todo-form">
+    <input required type="text" placeholder="할 일을 입력해 주세요.">
+  </form>
+
+  <ul id="todo-list"></ul>
+
+  <div id="quote">
+    <span></span>
+    <span></span>  
+  </div>
 
 
   <!-- JS -->
-  <script src="js/clock.js"></script>
   <script src="js/greeting.js"></script>
+  <script src="js/clock.js"></script>
+  <script src="js/quotes.js"></script>
+  <script src="js/background.js"></script>
+  <script src="js/todo.js"></script>
+  <script src="https://kit.fontawesome.com/457c559c3c.js" crossorigin="anonymous"></script>
 </body>
 </html>
