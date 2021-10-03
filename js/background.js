@@ -11,4 +11,4 @@ const bgimg = document.createElement('img');
 bgimg.src = `img/${chosenImg}`;
 
 
-document.body.prepend(bgimg)
+document.body.prepend(bgimg);
