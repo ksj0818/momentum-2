@@ -1,13 +1,12 @@
-.hidden {
-  display: none;
-}
-
-img {
-  width: 100px;
-  height: 100px;
-}
+@import url("https://fonts.googleapis.com/css2?family=Gaegu&display=swap");
+@import url("todo.css");
 
 body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Gaegu", cursive;
+  color: white;
   background-color: beige;
-  padding: 0px 50px;
 }

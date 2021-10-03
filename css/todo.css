@@ -1,0 +1,61 @@
+.hidden {
+  display: none;
+}
+
+.clock {
+  font-size: 80px;
+  margin-bottom: -10px;
+  margin-top: 0px;
+}
+
+.form-login > input {
+  margin-bottom: 10px;
+}
+
+.greeting {
+  margin-top: -1px;
+}
+
+.weather {
+  font-size: 17px;
+}
+
+.quote {
+  margin-top: 360px;
+  font-size: 22px;
+}
+
+input::placeholder {
+  color: white;
+}
+
+input {
+  outline: none;
+  width: 350px;
+  height: 30px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-color: white;
+  background-color: transparent;
+  color: white;
+}
+
+.todo-list {
+  box-sizing: border-box;
+}
+
+#bgimg {
+  position: fixed;
+  left: 0;
+  top: 0;
+  max-width: 100%;
+  min-width: 100%;
+  max-height: 100%;
+  min-height: 100%;
+  z-index: -1;
+  filter: brightness(80%);
+}
