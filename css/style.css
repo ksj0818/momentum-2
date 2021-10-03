@@ -6,3 +6,8 @@ img {
   width: 100px;
   height: 100px;
 }
+
+body {
+  background-color: beige;
+  padding: 0px 50px;
+}
